@@ -1,0 +1,9 @@
+commandsPostDeploy:
+  - id: 615e5d09-a37d-49bf-b140-d21c8472b221
+    label: Load crew capacity reference data
+    type: data
+    command: ""
+    parameters:
+      sfdmuProject: HeliosCrewRefData
+    runOnlyOnceByOrg: true
+    context: process-deployment-only

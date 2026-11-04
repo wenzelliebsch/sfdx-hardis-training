@@ -76,5 +76,5 @@ public with sharing class InstallationScheduler {
         }
         return allowed;
     }
-    }
 }
+

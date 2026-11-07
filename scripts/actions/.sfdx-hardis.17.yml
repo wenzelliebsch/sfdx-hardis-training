@@ -1,0 +1,9 @@
+commandsPostDeploy:
+  - id: e485f0ba-7e99-42d2-9585-b27dbc5098a9
+    label: Deploy Reference Data
+    type: data
+    command: ""
+    parameters:
+      sfdmuProject: HandoverItems
+    runOnlyOnceByOrg: true
+    context: process-deployment-only

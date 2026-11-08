@@ -1,7 +1,7 @@
 targetUsername: test-afdkuasuzhjs@example.com
 instanceUrl: https://test.salesforce.com
 mergeTargets:
-  - preprod
+  - helios-preprod
 codingAgentAutoFix: false
 packageNoOverwritePath: ""
 skipCodeCoverage: false

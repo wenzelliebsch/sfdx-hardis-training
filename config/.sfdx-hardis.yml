@@ -4,10 +4,10 @@ productionBranch: main
 orgAuthenticationMode: secretsOnly
 availableTargetBranches:
   - integration
-  - preprod
+  - helios-preprod
 availableTargetBranchesLabels:
   - The shared integration org, where every contributor merges
-  - preprod
+  - helios-preprod
 branchPrefixChoices:
   - value: features
     title: "Feature: a new capability or an improvement"
@@ -275,4 +275,4 @@ useDeltaDeploymentWithDependencies: false
 useSmartDeploymentTests: false
 allowedPromotionSteps:
   - source: uat
-    target: preprod
+    target: helios-preprod

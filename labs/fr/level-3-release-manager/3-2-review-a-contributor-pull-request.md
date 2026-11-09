@@ -5,7 +5,7 @@ description: "Relisez la Pull Request Salesforce d'une collègue en release mana
 level: 3
 lab: 2
 lang: fr
-source_rev: "a800ad5b9baa7c0da13d55c2824dcd73c295d922"
+source_rev: "c39d325a97c2e07fb5d11841f904db519acd3857"
 screenshots:
   - annotated/web/github-pr-files
   - annotated/vscode/pipeline-review-pr
@@ -23,7 +23,7 @@ depends_on:
 
 **Niveau** : 3 Release Manager
 
-**Durée** : ~20 min<!-- observed --> (observé : médiane 23 min, 9 participants, le plus rapide 13 min)<!-- /observed -->
+**Durée** : ~25 min<!-- observed --> (observé : médiane 26 min, 12 participants, le plus rapide 13 min)<!-- /observed -->
 
 **Vous allez** : relire le travail de quelqu'un d'autre, trouver ce que le robot n'a pas vu, demander
 une correction, et merger.
@@ -112,8 +112,8 @@ l'étape 3.
 
 #### À faire : ouvrir la liste des composants, sans quitter VS Code
 
-1. Ouvrez le panneau **DevOps Pipeline** et activez **Show feature branches** **(1)** : la branche
-   de Mariia apparaît, avec le numéro de sa Pull Request à côté **(2)**
+1. Ouvrez le panneau **DevOps Pipeline**. Il s'ouvre sur **Feature branches** **(1)** : la branche
+   de Mariia y est, avec le numéro de sa Pull Request à côté **(2)**
 2. Cliquez sur le numéro
 
    ![Le panneau DevOps Pipeline, avec la Pull Request de Mariia à côté de sa branche](../../_assets/annotated/vscode/pipeline-review-pr.png)

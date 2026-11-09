@@ -5,7 +5,7 @@ description: "Rapatriez vos modifications d'org dans Git avec le Metadata Retrie
 level: 1
 lab: 5
 lang: fr
-source_rev: "978db282766c2980fe9ede8fdc68c353cb0c9dc3"
+source_rev: "750f894ced5842aa76651bd591e2229e9286faaa"
 screenshots:
   - annotated/vscode/pipeline-cards-level1--commit-changes
   - annotated/vscode/metadata-retriever-recent-changes--find
@@ -29,7 +29,7 @@ depends_on:
 
 **Niveau** : 1 Contributeur, les bases
 
-**Durée** : ~15 min<!-- observed --> (observé : médiane 17 min, 32 participants, le plus rapide 5 min)<!-- /observed -->
+**Durée** : ~15 min<!-- observed --> (observé : médiane 16 min, 40 participants, le plus rapide 5 min)<!-- /observed -->
 
 **Vous allez** : rapatrier vos modifications d'org dans le repository, décider lesquelles appartiennent
 à votre story, et pousser une branche prête à être relue.
@@ -355,14 +355,16 @@ Objectif : vous savez ce que le nettoyage automatique a fait à cette story.
 1. Revenez à l'onglet de la commande, **hardis:work:save** **(1)**. Il est toujours ouvert à côté du
    visualiseur de package, en attente de votre réponse
 
-   ![L'onglet de la commande Save / Publish, avec les deux lignes de nettoyage au-dessus de la question](../../_assets/annotated/vscode/work-save-package-xml--cleaning.png)
+   ![L'onglet de la commande Save / Publish, avec les lignes de nettoyage au-dessus de la question](../../_assets/annotated/vscode/work-save-package-xml--cleaning.png)
 
-2. Lisez les deux lignes à propos du nettoyage **(2)** qu'elle a affichées entre vos réponses : des
-   références à des composants supprimés, et les positions en pixels à l'intérieur des Flows
+2. Lisez les lignes de nettoyage **(2)** qu'elle a affichées entre vos réponses, une par règle de
+   nettoyage du projet : les références à des composants supprimés, les champs locaux,
+   ProductRequest, et les Profiles. L'image en montre deux. La règle des positions en pixels à
+   l'intérieur des Flows ne tourne, et n'affiche une ligne, que si votre story a modifié un Flow
 
 #### Pourquoi
 
-Save / Publish tourne dans son propre onglet. Les deux lignes sont le nettoyage automatique du
+Save / Publish tourne dans son propre onglet. Ces lignes sont le nettoyage automatique du
 projet, et il tourne à chaque publication, sur le travail de tout le monde, pour que personne n'ait à
 se souvenir des règles de la maison.
 
@@ -417,7 +419,7 @@ Documentation de la commande : [hardis:work:save](https://sfdx-hardis.cloudity.c
 
 #### Vous devriez voir
 
-- Les deux lignes de nettoyage au-dessus de la question, et la question toujours en attente de votre
+- Les lignes de nettoyage au-dessus de la question, et la question toujours en attente de votre
   réponse
 
 ### 8. Pousser

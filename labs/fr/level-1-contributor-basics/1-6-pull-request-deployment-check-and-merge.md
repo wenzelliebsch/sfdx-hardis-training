@@ -5,7 +5,7 @@ description: "Ouvrez une Pull Request GitHub, lisez le contrôle de déploiement
 level: 1
 lab: 6
 lang: fr
-source_rev: "1eac666eaaa16837ab221744da1bf7afa6c9b336"
+source_rev: "359f7c84d7517fcc018799c14368473cbd0e01ba"
 screenshots:
   - annotated/web/github-pr-checks
   - annotated/web/github-pr-comment
@@ -30,7 +30,7 @@ depends_on:
 
 **Niveau** : 1 Contributeur, les bases
 
-**Durée** : ~15 min<!-- observed --> (observé : médiane 17 min, 31 participants, le plus rapide 5 min)<!-- /observed -->
+**Durée** : ~15 min<!-- observed --> (observé : médiane 19 min, 38 participants, le plus rapide 5 min)<!-- /observed -->
 
 **Vous allez** : faire contrôler votre travail par un robot avant qu'un humain le fasse, lire ce
 qu'il dit, et mettre US-014 dans l'org d'intégration partagée.
@@ -257,7 +257,7 @@ Azure Boards ou ServiceNow à la place.
 
       ![La fenêtre d'une Pull Request dans VS Code pendant que son contrôle de déploiement tourne](../../_assets/annotated/vscode/pipeline-pr-window-running.png)
 
-#### Pourquoi
+#### Pourquoi la carte peut être en retard
 
 Si la carte affiche encore *Pull Request not created yet*, le panneau montre ce qu'il savait avant
 que vous la créiez. Elle se met aussi à jour toute seule en moins d'une minute.
@@ -285,7 +285,7 @@ durée du job.
 
    ![Le bouton Files du job de validation, ouvert sur les rapports que le job a gardés](../../_assets/annotated/vscode/pipeline-pr-window-files.png)
 
-#### Pourquoi
+#### Pourquoi garder les fichiers
 
 Vous n'aurez pas besoin de ces fichiers aujourd'hui. Ils sont là pour le jour où un contrôle passe
 au rouge et où le commentaire ne suffit pas, et ils vous évitent un détour par GitHub.

@@ -276,3 +276,6 @@ useSmartDeploymentTests: false
 allowedPromotionSteps:
   - source: uat
     target: preprod
+devOrgsStaleDays: 30
+enableDevOrgsRegistry: true
+monitoringRepository: https://github.com/<your-handle>/sfdx-hardis-training-monitoring
